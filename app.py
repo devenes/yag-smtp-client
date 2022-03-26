@@ -15,12 +15,12 @@ yagmail.register(username, password)
 print("User registred successfully")
 
 reciver = input("Please write the reciver email: ")
-sub = input("Please write the subject: ")
-con = input("Please write the contents: ")
+subs = input("Please write the subject: ")
+cons = input("Please write the contents: ")
 
 reciverData = reciver
-subjectData = ("'"+sub+"'")
-contentsData = ("'"+con+"'")
+subjectData = ("'"+subs+"'")
+contentsData = ("'"+cons+"'")
 
 try:
     yag.send(to=reciverData,
