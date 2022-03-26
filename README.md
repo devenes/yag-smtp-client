@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./docs/_static/icon.png" width="48px"/>
+  <img src="https://raw.githubusercontent.com/kootenpv/yagmail/master/docs/_static/icon.png" width="48px"/>
 </p>
 
 # yagmail -- Yet Another GMAIL/SMTP client
