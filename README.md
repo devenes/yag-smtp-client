@@ -34,7 +34,19 @@ Note that it will read the password securely from your keyring (read below). If 
 yag = yagmail.SMTP('mygmailusername', 'mygmailpassword')
 ```
 
-In 2020, I personally prefer: using an [Application-Specific Password](https://support.google.com/accounts/answer/185833)
+---
+
+## Autherization Gmail Accounts with SMTP
+
+You can use your gmail account credentials to send emails in Python application with yagmail.
+
+If you are using gmail, you can use the following settings to add your gmail account to your keyring:
+
+> You need to enable access to less secure apps in your gmail account settings.
+
+<img src="./readme-content/gmail.png"/>
+
+---
 
 ### Table of Contents
 
