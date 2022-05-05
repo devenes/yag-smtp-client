@@ -40,7 +40,7 @@ yag = yagmail.SMTP('mygmailusername', 'mygmailpassword')
 
 You can use your gmail account credentials to send emails in Python application with yagmail.
 
-If you are using gmail, you can use the following settings to add your gmail account to your keyring:
+If you are using gmail, you can use the following settings to add your gmail account to your keyring: [Enable less secure apps](https://myaccount.google.com/lesssecureapps)
 
 > You need to enable access to less secure apps in your gmail account settings.
 
