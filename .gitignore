@@ -1,5 +1,4 @@
-
 *.log
 config.py
 .vscode/settings.json
-__pycache__/config.cpython-310.pyc
+*.pyc
