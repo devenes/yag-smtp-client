@@ -1,12 +1,10 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/kootenpv/yagmail/master/docs/_static/icon.png" width="48px"/>
-</p>
-
 # yagmail -- Yet Another GMAIL/SMTP client
 
 [![Join the chat at https://gitter.im/kootenpv/yagmail](https://badges.gitter.im/kootenpv/yagmail.svg)](https://gitter.im/kootenpv/yagmail?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![PyPI](https://img.shields.io/pypi/v/yagmail.svg?style=flat-square)](https://pypi.python.org/pypi/yagmail/)
 [![PyPI](https://img.shields.io/pypi/pyversions/yagmail.svg?style=flat-square)](https://pypi.python.org/pypi/yagmail/)
+
+![yag](yag.png)
 
 _For the asynchronous asyncio version, look here_: https://github.com/kootenpv/aioyagmail
 
