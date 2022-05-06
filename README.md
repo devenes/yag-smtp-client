@@ -32,13 +32,13 @@ yag = yagmail.SMTP('mygmailusername', 'mygmailpassword')
 
 ## Send Email using API
 
-![yagmail-api](./readme-content/postman.jpg)
-
 | Parameter  | Type     | Description                   |
 | :--------- | :------- | :---------------------------- |
 | `receiver` | `string` | Email address of the receiver |
 | `subject`  | `string` | Subject of the email          |
 | `contents` | `string` | Contents of the email         |
+
+![yagmail-api](./readme-content/postman.jpg)
 
 ## Automate sending Email using API
 
