@@ -1,4 +1,3 @@
-from fileinput import filename
 from config import config
 import logging
 import yagmail
