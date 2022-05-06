@@ -44,6 +44,16 @@ If you are using gmail, you can use the following settings to add your gmail acc
 
 <img src="./readme-content/gmail.png"/>
 
+## Send Email using API
+
+![yagmail-api](./readme-content/postman.jpg)
+
+| Parameter  | Type     | Description                   |
+| :--------- | :------- | :---------------------------- |
+| `receiver` | `string` | Email address of the receiver |
+| `subject`  | `string` | Subject of the email          |
+| `contents` | `string` | Contents of the email         |
+
 ---
 
 ### Table of Contents
