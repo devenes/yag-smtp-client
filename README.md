@@ -6,8 +6,6 @@
 
 ![yag](yag.png)
 
-_For the asynchronous asyncio version, look here_: https://github.com/kootenpv/aioyagmail
-
 The goal here is to make it as simple and painless as possible to send emails.
 
 In the end, your code will look something like this:
@@ -32,7 +30,19 @@ Note that it will read the password securely from your keyring (read below). If 
 yag = yagmail.SMTP('mygmailusername', 'mygmailpassword')
 ```
 
----
+## Send Email using API
+
+![yagmail-api](./readme-content/postman.jpg)
+
+| Parameter  | Type     | Description                   |
+| :--------- | :------- | :---------------------------- |
+| `receiver` | `string` | Email address of the receiver |
+| `subject`  | `string` | Subject of the email          |
+| `contents` | `string` | Contents of the email         |
+
+## Automate sending Email using API
+
+![yagmail-smtp](./readme-content/mail.jpg)
 
 ## Autherization Gmail Accounts with SMTP
 
@@ -43,16 +53,6 @@ If you are using gmail, you can use the following settings to add your gmail acc
 > You need to enable access to less secure apps in your gmail account settings.
 
 <img src="./readme-content/gmail.png"/>
-
-## Send Email using API
-
-![yagmail-api](./readme-content/postman.jpg)
-
-| Parameter  | Type     | Description                   |
-| :--------- | :------- | :---------------------------- |
-| `receiver` | `string` | Email address of the receiver |
-| `subject`  | `string` | Subject of the email          |
-| `contents` | `string` | Contents of the email         |
 
 ---
 
