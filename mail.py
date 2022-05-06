@@ -3,6 +3,7 @@ from config import config
 import logging
 import yagmail
 
+# Flask API email sender
 
 mail = Flask(__name__)
 
