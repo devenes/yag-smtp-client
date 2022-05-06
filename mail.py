@@ -12,7 +12,7 @@ logging.basicConfig(
     level=config['log_level']
 )
 
-username = config['user']
+username = config['sender_mail']
 password = config['password']
 yag = yagmail.SMTP(username)
 
@@ -20,11 +20,11 @@ yagmail.register(username, password)
 
 
 def send_mail(request):
-    reciverData = request.args.get('reciver')
+    receiverData = request.args.get('receiver')
     subjectData = request.args.get('subject')
     contentsData = request.args.get('contents')
-    logging.info(f"{reciverData} {subjectData} {contentsData}")
-    return yag.send(to=reciverData,
+    logging.info(f"{receiverData} {subjectData} {contentsData}")
+    return yag.send(to=receiverData,
                     subject=subjectData,
                     contents=contentsData)
 
