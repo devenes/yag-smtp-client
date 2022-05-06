@@ -31,7 +31,7 @@ for x in liste:
     f.write(dosya_isim)
     f.write('\n')
 
-username = config['user']
+username = config['sender_mail']
 password = config['password']
 yag = yagmail.SMTP(username)
 
@@ -39,18 +39,18 @@ yagmail.register(username, password)
 
 print("User registred successfully")
 
-reciver = input("Please write the reciver email: ")
+receiver = input("Please write the receiver email: ")
 subs = input("Please write the subject: ")
 cons = input("Please write the contents: ")
 attach = 'list.txt'
 
-reciverData = reciver
+receiverData = receiver
 subjectData = ("'"+subs+"'")
 contentsData = ("'"+cons+"'")
 attachData = attach
 
 try:
-    yag.send(to=reciverData,
+    yag.send(to=receiverData,
              subject=subjectData,
              contents=contentsData,
              attachments=attachData)
